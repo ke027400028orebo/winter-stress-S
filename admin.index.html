@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartSave | Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <h1>SmartSave Admin</h1>
+    <button class="logout-btn" type="button">Logout</button>
+  </header>
+
+  <div class="admin-container">
+
+    <aside class="sidebar">
+      <h2>Admin Menu</h2>
+      <a href="admin.html" class="active">Dashboard</a>
+      <a href="manage-users.html">Manage Users</a>
+      <a href="withdrawal-requests.html">Withdrawal Requests</a>
+      <a href="transactions.html">Transactions</a>
+      <a href="settings.html">Settings</a>
+      <a href="index.html">View Website</a>
+    </aside>
+
+    <main class="admin-content">
+      <h2>Dashboard Overview</h2>
+      <p>Welcome to your SmartSave administration panel.</p>
+
+      <section class="stats-container">
+        <div class="stat-card">
+          <h3>Total Users</h3>
+          <p>0</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Total Savings</h3>
+          <p>KSh 0.00</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Pending Withdrawals</h3>
+          <p>0</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Platform Earnings</h3>
+          <p>KSh 0.00</p>
+        </div>
+      </section>
+
+      <section class="admin-section">
+        <h2>Quick Actions</h2>
+        <div class="quick-actions">
+          <a href="manage-users.html" class="btn">Manage Users</a>
+          <a href="withdrawal-requests.html" class="btn">Review Withdrawals</a>
+          <a href="transactions.html" class="btn">View Transactions</a>
+          <a href="settings.html" class="btn">Platform Settings</a>
+        </div>
+      </section>
+
+      <section class="admin-section">
+        <h2>Recent Activity</h2>
+        <p>No activity to display yet.</p>
+        <p class="notice">
+          Demo dashboard: statistics and activity will require a connected
+          database and secure backend.
+        </p>
+      </section>
+    </main>
+
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2026 SmartSave. Admin Panel.</p>
+  </footer>
+</body>
+</html>
